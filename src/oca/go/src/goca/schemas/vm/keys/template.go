@@ -51,16 +51,18 @@ type OS string
 const (
 	OSVec string = "OS"
 
-	Arch       OS = "ARCH"
-	Machine    OS = "MACHINE"
-	Kernel     OS = "KERNEL"
-	KernelDS   OS = "KERNEL_DS"
-	Initrd     OS = "INITRD"
-	InitrdDS   OS = "INITRD_DS"
-	Root       OS = "ROOT"
-	KernelCmd  OS = "KERNEL_CMD"
-	Bootloader OS = "BOOTLOADER"
-	Boot       OS = "BOOT"
+	Arch           OS = "ARCH"
+	Machine        OS = "MACHINE"
+	Kernel         OS = "KERNEL"
+	KernelDS       OS = "KERNEL_DS"
+	Initrd         OS = "INITRD"
+	InitrdDS       OS = "INITRD_DS"
+	Root           OS = "ROOT"
+	KernelCmd      OS = "KERNEL_CMD"
+	Bootloader     OS = "BOOTLOADER"
+	Boot           OS = "BOOT"
+	Firmware       OS = "FIRMWARE"
+	FirmwareSecure OS = "FIRMWARE_SECURE"
 )
 
 // CPUModel define keys for the VM CPU model

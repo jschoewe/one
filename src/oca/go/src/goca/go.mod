@@ -1,4 +1,4 @@
-module github.com/OpenNebula/one/src/oca/go/src/goca
+module github.com/jschoewe/one/src/oca/go/src/goca
 
 go 1.12
 
